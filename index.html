@@ -279,7 +279,7 @@
         </article>
         <h2 class="display-4 text-center my-4" id="contacto">Contacto</h2>
         <article class="card shadow mb-5 bg-white rounded p-3">
-            <form>
+            <form onsubmit="validarForm(event)">
                 <div class="form-group">
                     <label>Nombre*</label>
                     <input class="form-control" type="text" placeholder="x ej. Juan Perez" id="contactoNombre">
@@ -296,7 +296,7 @@
                     <div class="invalid-feedback">Campo Obligatorio</div>
                 </div>
                 <div class="form-group">
-                    <label>Consulta</label>
+                    <label>Consulta*</label>
                     <textarea class="form-control" id="contactoConsulta" placeholder="Dejame acá tu consulta"></textarea>
                     <div class="invalid-feedback">Campo Obligatorio</div>
                 </div>
@@ -324,6 +324,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
         integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
         crossorigin="anonymous"></script>
+        <script src="js/contacto.js"></script>
 </body>
 
 </html>
