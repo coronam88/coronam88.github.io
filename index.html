@@ -271,11 +271,38 @@
                             aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
                     </div>
                 </div>
-<!-- AGREGAR PYHTON, DJANGO, GIT, SCRAUM, TRELLO Y LAS DEMAS BASES DE DATOS QUE VI -->
+                <!-- AGREGAR PYHTON, DJANGO, GIT, SCRAUM, TRELLO Y LAS DEMAS BASES DE DATOS QUE VI -->
         </article>
         <h2 class="display-4 text-center my-4" id="portfolio">Portfolio</h2>
         <article class="card shadow mb-5 bg-white rounded p-3">
             <p>Agregar aqui galeria de imagenes de mis proyectos</p>
+        </article>
+        <h2 class="display-4 text-center my-4" id="contacto">Contacto</h2>
+        <article class="card shadow mb-5 bg-white rounded p-3">
+            <form>
+                <div class="form-group">
+                    <label>Nombre*</label>
+                    <input class="form-control" type="text" placeholder="x ej. Juan Perez" id="contactoNombre">
+                    <div class="invalid-feedback">Campo Obligatorio</div>
+                </div>
+                <div class="form-group">
+                    <label>Email*</label>
+                    <input class="form-control" type="email" placeholder="x ej. jperez@ejemplo.com" id="contactoEmail">
+                    <div class="invalid-feedback">Campo Obligatorio</div>
+                </div>
+                <div class="form-group">
+                    <label>Telefono*</label>
+                    <input class="form-control" type="text" placeholder="x ej. 3813071561" id="contactoTelefono">
+                    <div class="invalid-feedback">Campo Obligatorio</div>
+                </div>
+                <div class="form-group">
+                    <label>Consulta</label>
+                    <textarea class="form-control" id="contactoConsulta" placeholder="Dejame acá tu consulta"></textarea>
+                    <div class="invalid-feedback">Campo Obligatorio</div>
+                </div>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+
+            </form>
         </article>
     </section>
     <footer class="bg-dark text-light py-2">
