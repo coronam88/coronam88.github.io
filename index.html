@@ -12,6 +12,12 @@
     <script src="https://kit.fontawesome.com/a0d86d6aaa.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
     <title>Maximiliano Corona</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2.3.2/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("user_WPRIglElAyCX6XNhYDwPM");
+        })();
+    </script>
 </head>
 
 <body>
@@ -376,8 +382,8 @@
                     <div class="invalid-feedback">Campo Obligatorio</div>
                 </div>
                 <button type="submit" class="btn btn-primary">Enviar</button>
-
             </form>
+            <div class="alert alert-danger mt-4 d-none" role="alert" id="mensajeEnvio"></div>
         </article>
     </section>
     <footer class="bg-dark text-light py-2">
