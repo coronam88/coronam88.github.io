@@ -12,6 +12,15 @@ background: linear-gradient(to right, #1CB5E0, #000046); /* W3C, IE 10+/ Edge, F
     height: 250px;
 }
 
+.button-nav-selected{
+  color: #A1CAE2!important
+}
+
+.web-application-bg{
+  background-color: #A1CAE2!important;
+  
+}
+
 body{
     font-family: 'Roboto', sans-serif;
 }
@@ -27,10 +36,10 @@ body{
 
 }
 
-
 .margin-general{
-    margin-top: 60px;
+    margin-top: 70px;
 }
+
 
 /* .index-div {
         position: absolute;
@@ -69,13 +78,13 @@ body{
   transform-style: preserve-3d;
   transform: translateZ(-25px);
   transition: transform .25s;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Roboto', sans-serif;
   
 }
 .resume:before,
 .resume:after{
   position: absolute;
-  content: "RESUME";
+  content: "My Resume";
   height: 55px;
   width: 180px;
   display: flex;
@@ -89,7 +98,7 @@ body{
 .portfolio:before,
 .portfolio:after{
     position: absolute;
-    content: "PORTFOLIO";
+    content: "Portfolio";
     height: 55px;
     width: 180px;
     display: flex;
